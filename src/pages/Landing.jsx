@@ -33,7 +33,7 @@ function Landing()
 
         <div className="bg-black p-8 px-16">
         <div className="bg-[#EFEFEF] p-5  rounded-md">
-        <Header name={data.state.user}></Header>
+        <Header name={data.state.euser}></Header>
 
         <div className=" flex gap-7 flex-wrap justify-center ">
           {

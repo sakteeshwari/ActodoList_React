@@ -18,7 +18,7 @@ const TodoList=(props)=>{
 
                 // return <TodoItem indexing={index} activity={data}></TodoItem>
 
-                return <TodoItem id={data.id} indexing={index+1} activity={data.activity} activityarr={arrayVal} setactivityarr={setArrayVal}></TodoItem>
+                return <TodoItem key={index} id={data.id} indexing={index+1} activity={data.activity} activityarr={arrayVal} setactivityarr={setArrayVal}></TodoItem>
             })
         }
        

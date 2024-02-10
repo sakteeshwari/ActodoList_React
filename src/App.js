@@ -1,9 +1,10 @@
 
 
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Login from "./pages/Iogin"
+import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Landing from "./pages/Landing"
+
 import { useState } from "react"
 
 
@@ -28,8 +29,8 @@ const App=()=>{
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<Login array={array} setArray={setArray} />}></Route>
-    <Route path="/signup" element={<Signup array={array} setArray={setArray} />}></Route>
-    <Route path="/landing" element={<Landing/>}></Route>
+    <Route path="/Signup" element={<Signup array={array} setArray={setArray} />}></Route>
+    <Route path="/Landing" element={<Landing/>}></Route>
     </Routes>
     </BrowserRouter>
     </div>
