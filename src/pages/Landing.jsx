@@ -31,7 +31,7 @@ function Landing()
     return(
 
 
-        <div className="bg-black p-8 px-12">
+        <div className="bg-teal-900 h-svh p-8 px-12">
         <div className="bg-[#EFEFEF] p-5  rounded-md">
         <Header name={data.state.euser}></Header>
 

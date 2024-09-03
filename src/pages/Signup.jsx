@@ -40,7 +40,7 @@ const Signup = (props) => {
 
     return (
         <>
-            <div className=" bg-black py-10 px-14 ">
+            <div className=" bg-teal-900 h-svh py-10 px-14 ">
                 <div className=" bg-[#EFEFEF] flex flex-col p-5 rounded-md  ">
                     <h1 className=" text-3xl font-semibold">Hey Hi 👋 </h1>
                     <p className="mt-2">You can Sign up here :)</p>
