@@ -63,7 +63,7 @@ const Login = (props) => {
                     <input type="text" placeholder="Password" value={epass} onChange={changePassword} className="  border border-gray-400 p-2 w-56 rounded-md bg-transparent focus:outline-none" required/>
                     <button className=" bg-[#8272DA] p-1.5 w-24 mt-4 rounded-md hover:bg-[#a59adf]" onClick={handleLogin}>Login</button>
                     <p className="mt-3">Don't have an account? <Link className=" underline" to={"/Signup"}>Sign Up</Link></p>
-                    {/* <Link to={"/"} className=" underline">Sign Up</Link> */}
+                    
                 </div>
             </div>
         </>
